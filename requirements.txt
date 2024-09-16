@@ -1,6 +1,6 @@
 
-# Streamlit for creating the app interface
-streamlit==1.19.0
+# Use Streamlit version compatible with Python 3.12
+streamlit==1.22.0
 
-# Snowflake Snowpark for Snowflake database interaction
-snowflake-snowpark-python==0.11.0
+# Use Snowflake Snowpark version compatible with Python 3.12
+snowflake-snowpark-python==0.12.0
