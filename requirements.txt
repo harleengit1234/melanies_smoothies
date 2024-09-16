@@ -1,3 +1,6 @@
 
-  snowflake-snowpark-python
-  streamlit
+# Streamlit for creating the app interface
+streamlit==1.19.0
+
+# Snowflake Snowpark for Snowflake database interaction
+snowflake-snowpark-python==0.11.0
