@@ -1,6 +1,4 @@
-
-# Use Streamlit version compatible with Python 3.12
-streamlit==1.22.0
-
-# Use Snowflake Snowpark version compatible with Python 3.12
-snowflake-snowpark-python==0.12.0
+snowflake-snowpark-python
+streamlit
+requests
+pandas
