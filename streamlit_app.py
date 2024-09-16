@@ -2,6 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 from snowflake.snowpark.session import Session
+import requests
 
 # Write directly to the app
 st.title("Example Streamlit App :cup_with_straw:")
@@ -37,6 +38,8 @@ if ingredients_list:
     VALUES ('{ingredients_string}', '{name_on_order}')
     """
     #st.write(my_insert_stmt)
+    fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+    st.text(fruityvice_response)
 
     time_to_insert = st.button('Submit Order')
     if time_to_insert:
